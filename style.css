@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif ; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#titulo{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+
+}
+
+a{color: white;
+}
+a:hover{
+    color: rgb(39, 222, 191);
+    transition: 0.3 all;
+}
+
+#link{
+    border: 2px solid rgb(39, 222, 191);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+#link:hover{
+    background-color: rgb(39, 222, 191);
+    color: white;
+    transition: 0.6s all;
+}
+#git{
+    border: 2px solid rgb(39, 222, 191);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+#git:hover{
+    background-color: rgb(39, 222, 191);
+    color: white;
+    transition: 0.6s all;
+}
+#wtpp{
+    border: 2px solid rgb(39, 222, 191);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+#wtpp:hover{
+    background-color: rgb(39, 222, 191);
+    color: white;
+    transition: 0.6s all;
+}
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 50px;
+}
+h2{
+    font-size: 55px;
+    line-height: 50px;
+    font-family: 'Poppins';
+
+    
+}
+
+span{
+    color: rgb(39, 222, 191);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+
+img{
+    width: 600px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    }
+
+    input{
+        margin-top: 20px;
+        height: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+
+    }
+
+    #msg{
+        margin-top: 20px;
+        height: 60px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+        
+    }
+
+   #botao{
+       height: 50px;
+       width: 50%;
+       background-color: rgb(39, 222, 191);
+       font: bolder;
+       color: white;
+       font-weight: bold;
+       
+       }
+
+       #botao:hover{
+           cursor: pointer;
+           
+       }
+       #gonza{
+        font-family: 'poppins';
+        font-size: 10px;
+        line-height: 1px;
+        color: white;
+        margin-left: 50%;
+    }
+
+       #frase{
+        max-width: 500px;
+        font-family: 'poppins';
+        font-size: 14px;
+        margin-top: 30px;
+        color: white;
+        
+       }
